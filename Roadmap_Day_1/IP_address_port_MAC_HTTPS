@@ -1,0 +1,18 @@
+IP address:
+
+IP stands for Internet Protocol. IP address is a numerical label that is given to a device to identify the device address in internet
+communication. There are IPV4 - 32 bits and IPv6 - 128 bits addresses.
+
+port:
+
+Port are virtual points that denotes the start and end of the connection. Ports are software based and managed by OS.
+
+HTTP:
+
+Hyper Text Transfer Protocol is used to load webpages in hyper text links. It is an application layer protocol designed to share information
+in networked devices.
+
+MAC:
+
+Media Access Control is a sometimes known as physical address. It is a 12 digit alphanumeric address used to identify the electronic 
+devices connected to the network.

@@ -1,0 +1,11 @@
+HTTP 1.1 -
+    1. In HTTP 1.1 the loads are transferred one after the other. If any one data is not loaded, the other data is blocked. 
+    2. Data is transferred in single queue.
+    3. In HTTP 1, the server is not allowed to push content to the client before client ask for it.
+    4. HTTP 1.1 does not have HPACK compression mechanism to eliminate redundant information in http header packets.
+
+HTTP 2 -
+    1. HTTP 2 uses single TCP connection to send multiple streams of data at once. If any one data is not loaded, it will not affect other data.
+    2. Data is splitted using binary code and numbering these data will help client to know which stream each data belongs to.
+    3. In HTTP 2, the server is allowed to push contents to the client before client ask for it.
+    4. HTTP 2 uses more advanced compression method called HPACK compression that eliminated redundant information in http header packets, which results in faster loading.
